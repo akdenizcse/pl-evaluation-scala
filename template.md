@@ -28,11 +28,9 @@ By improving science and technology every human wants to make himself/herself li
 
 
 
-
 1 – Scala: language for future programming
 
 When Martin Odersky designed pizza programming language, it affected the programming world, but this language never became popular. Soon he decided to design language which everyone can use it and update or upgrade it and, he wants to make this language mix of so many other languages. Therefore, this theory become the reason of designing Scala language in 2004.Scala`s syntax is so similar to java but so easier than that and most of java libraries can used in Scala. This language is mixed of language such as: C, Haskell, Ruby and Python.it supports both functional programming and object-oriented programming. One of best IDE for this language comes from Eclipse.
-
 
 
 2 – Scala: Scalable 
