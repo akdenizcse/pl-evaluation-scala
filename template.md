@@ -62,6 +62,8 @@ Totally, We can explain that Scala is a public purpose language which programmer
 
 
 
+
+
 Scala is easy to learn and general-purpores programming language,both object-oriented and highly functional programming language.
 
 About Scala and It’s Features:
@@ -92,6 +94,7 @@ Here are the characteristics of Functional Programming:
 
 
 Scala is a compiler-based language,it’s execution is relatively faster than Python,because Python is an interpreted language.The compiler in Scala Functions is just like a Java Compiler.
+
 
 Important things to remember about Scala:
 
@@ -284,8 +287,7 @@ OUTPUT:”My name is Rashad!”
 
 object ExCheckNumber {
        def main(args: Array[String]) {
-        
-           /**declare a variable*/
+        /**declare a variable*/
              var number= (-100);
        
            if(number==0){
@@ -301,7 +303,9 @@ object ExCheckNumber {
     }
 
 
-OUTPUT:”number is negative”
+OUTPUT:
+
+”number is negative”
 
 
 3)Scala program to demonstrate example of multiple variables declarations and assignments:
@@ -328,9 +332,17 @@ object ExampleVarDecAndAssin {
 
 
 OUTPUT:
+
+
 Name:   Rashad
+
+
 Age:    21
+
+
 Address:   Antalya, Turkey
+
+
 Mobile:    1234567890
 
 
@@ -351,6 +363,8 @@ object ExampleForLoop1 {
 
 
 OUTPUT:
+
+
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 
 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 
@@ -362,8 +376,7 @@ OUTPUT:
 
 
 object ExampleArray1 {
-    
-   def main(args: Array[String]) {
+    def main(args: Array[String]) {
        
       var numbers = Array(10,20,30,40,50);
       var N:Int=0;
@@ -385,12 +398,26 @@ object ExampleArray1 {
 
 
 OUTPUT:
+
+
 All array elements: 
+
+
 10
+
+
 20
+
+
 30
+
+
 40
+
+
 50
+
+
 Sum of all array elements: 150
 
 
