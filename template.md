@@ -266,7 +266,11 @@ and download one of Scala release according to you requirements.
 
 
 
+
+
 Some Interesting Example Codes in Scala:
+
+
 
 
 1)Scala program to print your name:
@@ -280,6 +284,8 @@ object ExPrintName {
 
 
 OUTPUT:”My name is Rashad!”
+
+
 
 
 2)Scala program to find a number is negative or positive:
@@ -306,6 +312,8 @@ object ExCheckNumber {
 OUTPUT:
 
 ”number is negative”
+
+
 
 
 3)Scala program to demonstrate example of multiple variables declarations and assignments:
@@ -346,6 +354,8 @@ Address:   Antalya, Turkey
 Mobile:    1234567890
 
 
+
+
 4)Scala program to print numbers from 1 to 100 using for loop:
 
 
@@ -372,6 +382,8 @@ OUTPUT:
 92 93 94 95 96 97 98 99 100 
 
 
+ 
+ 
  5)Scala program of array - Declare, print and calculate sum of all elements:
 
 
