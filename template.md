@@ -63,32 +63,60 @@ Totally, We can explain that Scala is a public purpose language which programmer
 
 
 Scala is easy to learn and general-purpores programming language,both object-oriented and highly functional programming language.
+
 About Scala and It’s Features:
+
+
 1)Scala is Completely Object-Oriented Programming Language:
 Everything here is regarded as an object. Operations we conduct are termed as a method call. Scala let to users add operations to already existing classes.The best thing about Scala is that it makes it effortlessly easy to interact with Java Code.We can easily write a Java code inside Scala class.
+
+
 2)Scala is a Functional Language:
 Here are the characteristics of Functional Programming:
+
+
 -Simplicity
+
+
 -Power and Flexibility
+
+
 -Suitable for Parallel Processing
+
+
 3)Not Interpreted,Scala is a Compiler-Based Language:
 Scala is a compiler-based language,it’s execution is relatively faster than Python,because Python is an interpreted language.The compiler in Scala Functions is just like a Java Compiler.
+
 Important things to remember about Scala:
+
+
 1)Scala is case-sensitive
+
+
 2)When saving a Scala Program,use “.scala”
+
+
 3)Scala execution process begins from main() methods
+
+
 4)Identifier never can start with numbers
 
 
 Which reasons encourages Java Developers to learn Scala?
+
+
 Scala has many strong points,the strongest one is that Scala is a Multi-Paradigm Language.
+
+
 1)Multi-Paradigm Language:
 Scala is different than Java,because it supports two programming paradigms:
 Object-Oriented Programming(OOP) and Functional Programming(FP).
 For advancing programming skills, it’s better to learn at least one language from different paradigms and Scala gives chance to discover both FP and OOP.
 
+
 2)Interoperability With Java:
 Scala runs on the Java Virtual Machine (JVM) and can operate nicely with Java code.This also means Scala developers can use Java libraries directly from Scala code. It is also possible to call Scala code from Java, and you can easily write part of your program in Scala and the rest in Java.
+
 
 3)Expressiveness
 Scala certainly scores big over Java in expressiveness.
@@ -97,13 +125,16 @@ This is attracting more and more Java developers to learn Scala, who like to wri
 Here is the word count program written in both Java and Scala, you can see the difference in the expressiveness of language by yourself.
 Scala has achieved in just one line what Java has taken more than 10 lines to achieve.
 
+
 4)Marketable
 Learning Scala will certainly make you more marketable. Many companies are using or migrating to Scala these days, including Twitter, LinkedIn, Foursquare, and Quora. Given Scala’s marketing as Scalable language, the days are not far when the big investment banks and financial organizations will start looking Scala for their low-latency solutions.
+
 
 5)Statically Typed
 Statically typed languages like Java, avert programmers from doing bad things, but with a dynamic language like Python, we only know about a bad thing when we run the program.
 Scala has the best of both. It feels dynamic, but it’s strongly statically typed. The Scala compiler is really smart and uses type-inference to it’s fullest extent.
 Scala provides type inference for variables and functions, much better than the limited type inference in Java and C#.
+
 
 6)Growing Frameworks
 Scala is growing programming language.There are lots of good libraries and frameworks coming around.Companies that have started using Scala are also contributing to the recent growth of Scala as a mainstream language.
@@ -114,17 +145,21 @@ Akka, another Scala-Based concurrent framework has already established itself as
 
 Here are the top 5 IDEs and text editors for Scala:
 
+
 1)Eclipse:
 Eclipse IDE for Scala provides dedicated support for developing pure Scala and mixed applications. Scala IDE 3.0 offers a whole host of tools and features for developers, along with a few notable bug fixes. There is a Scala debugger which makes everything easier, along with a reliable test finder and an asynchronous debugger. Scala IDE is Open-Source and available under the Scala License.
+
 
 2)Ensime:
 Ensime is something with a mix of two items. Emacs and Atom are both text editors with excellent support for Scala, but today we are focusing on the Ensime. Ensime is a library software designed to brings Scala and Java IDE-like features to your favorite text editor.
 ENSIME is not precisely a text editor or IDE. In order to make use of it, you need a build tool, an. ensime file, and a text editor. The build tool downloads the ensime-server and the text editor launches it. While this is slightly more involved than most IDEs, the benefits are impressive.
 Developers can jump to source code or the documentation easily. ENSIME shows inferred types, supports refactoring, and most importantly, red squiggly lines appear in your code to highlight errors and warnings. Ensime is a free software that relies on donations and sponsorship from developers.
 
+
 3)Intellij Idea:
 While IntelliJ Idea is a technically an IDE for Java, the IDE provides support for lots of other languages like Scala, Groovy, Kotlin, JavaScript, TypeScript and SQL.
 In addition to the host of features, IntelliJ IDEA offers Scala-specific support in testing with Scala Test. This lets developers perform unit testing easily. Other features include smart completion, language injection, an editor-centric environment, and lots of useful build tools. While IntelliJ Idea Ultimate requires purchase and a yearly subscription, the Community version is open source.
+
 
 4)Netbeans:
 NetBeans IDE allows developers to quickly and easily develop desktop, mobile and web applications. It has many features for editing, analyzing, and converting, NetBeans IDE makes things easier for developers. The Scala plugin for NetBeans features a full Scala editor, complete with syntax and semantic coloring, an outline navigator, code completion, and more. There is also a debugger, an interactive console, and integration with Junit and Maven. NetBeans is free, open source, and moving to Apache.
@@ -139,23 +174,31 @@ Vim is a text editor for developers who really want to customize their own exper
 
 How to Setup Scala Programming Language in different Platforms?
 
+
 For Windows:
+
+
 First, make sure you have the Java 8 JDK (or Java 11 JDK) installed.
 To check, open the terminal and type:
 java -version(Make sure you have version 1.8 or 11.)
 (If you don't have it installed, download Java from Oracle Java 8, Oracle Java 11, or AdoptOpenJDK 8/11. Refer JDK Compatibility for Scala/Java compatiblity detail.
 
+
 Then, install Scala:
 either by installing an IDE such as IntelliJ, or sbt, Scala's build tool.
+
 
 1)For download using IntelliJ you should first download IntelliJ IDE from using link below :
 https://www.jetbrains.com/idea
 
+
 2)if you Familiar with command line also you can install it using sbt :
 http://www.scala-sbt.org/download.html?_ga=2.190839083.1418433471.1587823421-2015656070.1587822605
 
+
 3)By using "SDKMAN!", you can easily install Scala with command :
  "sdk install scala"
+
 
 4)But the best and easy way to install it in Windows is :
 Download binaries for windows and install using setup windows.You can download it from link below :
@@ -163,20 +206,22 @@ https://downloads.lightbend.com/scala/2.13.2/scala-2.13.2.msi
 it automatically install all dependencies of Scala.
 
 
-
 For Linux:
 In Linux you can install Scala using command line in Ubuntu :
 Apt-get install scala
 
 
-
 For MacOS:
+
+
 1)On macOS you can also use Homebrew and existing Scala Formula 
 brew update
 brew install scala
 
+
 2)With MacPorts, you can get Scala using "sudo port install scala2.x" command.
 For example to install Scala 2.12 simply use “sudo port install scala2.12”
+
 
 3)For downloading manually, you can use :
 https://www.scala-lang.org/download/
@@ -184,8 +229,8 @@ and download one of Scala release according to you requirements.
 
 
 
-
 Some Interesting Example Codes in Scala:
+
 
 1)Scala program to print your name:
 
