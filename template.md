@@ -68,10 +68,14 @@ About Scala and It’s Features:
 
 
 1)Scala is Completely Object-Oriented Programming Language:
+
+
 Everything here is regarded as an object. Operations we conduct are termed as a method call. Scala let to users add operations to already existing classes.The best thing about Scala is that it makes it effortlessly easy to interact with Java Code.We can easily write a Java code inside Scala class.
 
 
 2)Scala is a Functional Language:
+
+
 Here are the characteristics of Functional Programming:
 
 
@@ -85,6 +89,8 @@ Here are the characteristics of Functional Programming:
 
 
 3)Not Interpreted,Scala is a Compiler-Based Language:
+
+
 Scala is a compiler-based language,it’s execution is relatively faster than Python,because Python is an interpreted language.The compiler in Scala Functions is just like a Java Compiler.
 
 Important things to remember about Scala:
@@ -109,16 +115,24 @@ Scala has many strong points,the strongest one is that Scala is a Multi-Paradigm
 
 
 1)Multi-Paradigm Language:
+
+
 Scala is different than Java,because it supports two programming paradigms:
+
+
 Object-Oriented Programming(OOP) and Functional Programming(FP).
 For advancing programming skills, it’s better to learn at least one language from different paradigms and Scala gives chance to discover both FP and OOP.
 
 
 2)Interoperability With Java:
+
+
 Scala runs on the Java Virtual Machine (JVM) and can operate nicely with Java code.This also means Scala developers can use Java libraries directly from Scala code. It is also possible to call Scala code from Java, and you can easily write part of your program in Scala and the rest in Java.
 
 
-3)Expressiveness
+3)Expressiveness:
+
+
 Scala certainly scores big over Java in expressiveness.
 Scala is inherently very expressive. There’s also lots of really beautiful and useful code written in Scala.
 This is attracting more and more Java developers to learn Scala, who like to write beautiful and clean code.
@@ -126,17 +140,23 @@ Here is the word count program written in both Java and Scala, you can see the d
 Scala has achieved in just one line what Java has taken more than 10 lines to achieve.
 
 
-4)Marketable
+4)Marketable:
+
+
 Learning Scala will certainly make you more marketable. Many companies are using or migrating to Scala these days, including Twitter, LinkedIn, Foursquare, and Quora. Given Scala’s marketing as Scalable language, the days are not far when the big investment banks and financial organizations will start looking Scala for their low-latency solutions.
 
 
-5)Statically Typed
+5)Statically Typed:
+
+
 Statically typed languages like Java, avert programmers from doing bad things, but with a dynamic language like Python, we only know about a bad thing when we run the program.
 Scala has the best of both. It feels dynamic, but it’s strongly statically typed. The Scala compiler is really smart and uses type-inference to it’s fullest extent.
 Scala provides type inference for variables and functions, much better than the limited type inference in Java and C#.
 
 
-6)Growing Frameworks
+6)Growing Frameworks:
+
+
 Scala is growing programming language.There are lots of good libraries and frameworks coming around.Companies that have started using Scala are also contributing to the recent growth of Scala as a mainstream language.
 There are some nice Scala web frameworks out there, including Lift and Play.
 Akka, another Scala-Based concurrent framework has already established itself as toolkit.Scala is also been used in Big Data space along with Apache Spark, which has further fuelled it’s adoption by many Java developers interested in Big Data.
@@ -147,25 +167,35 @@ Here are the top 5 IDEs and text editors for Scala:
 
 
 1)Eclipse:
+
+
 Eclipse IDE for Scala provides dedicated support for developing pure Scala and mixed applications. Scala IDE 3.0 offers a whole host of tools and features for developers, along with a few notable bug fixes. There is a Scala debugger which makes everything easier, along with a reliable test finder and an asynchronous debugger. Scala IDE is Open-Source and available under the Scala License.
 
 
 2)Ensime:
+
+
 Ensime is something with a mix of two items. Emacs and Atom are both text editors with excellent support for Scala, but today we are focusing on the Ensime. Ensime is a library software designed to brings Scala and Java IDE-like features to your favorite text editor.
 ENSIME is not precisely a text editor or IDE. In order to make use of it, you need a build tool, an. ensime file, and a text editor. The build tool downloads the ensime-server and the text editor launches it. While this is slightly more involved than most IDEs, the benefits are impressive.
 Developers can jump to source code or the documentation easily. ENSIME shows inferred types, supports refactoring, and most importantly, red squiggly lines appear in your code to highlight errors and warnings. Ensime is a free software that relies on donations and sponsorship from developers.
 
 
 3)Intellij Idea:
+
+
 While IntelliJ Idea is a technically an IDE for Java, the IDE provides support for lots of other languages like Scala, Groovy, Kotlin, JavaScript, TypeScript and SQL.
 In addition to the host of features, IntelliJ IDEA offers Scala-specific support in testing with Scala Test. This lets developers perform unit testing easily. Other features include smart completion, language injection, an editor-centric environment, and lots of useful build tools. While IntelliJ Idea Ultimate requires purchase and a yearly subscription, the Community version is open source.
 
 
 4)Netbeans:
+
+
 NetBeans IDE allows developers to quickly and easily develop desktop, mobile and web applications. It has many features for editing, analyzing, and converting, NetBeans IDE makes things easier for developers. The Scala plugin for NetBeans features a full Scala editor, complete with syntax and semantic coloring, an outline navigator, code completion, and more. There is also a debugger, an interactive console, and integration with Junit and Maven. NetBeans is free, open source, and moving to Apache.
 
 
 5)VIM:
+
+
 Vim is a text editor for developers who really want to customize their own experience. In fact, this is sometimes the main complaint about Vim: developers must install a lot of plugins in order to really get the environment they want. People said that Vim’s got a number of Scala plugins to make it work.
 "Vim-Scala" is a good baseline plugin to have to manage the syntax. A popular code completion plugin is "deoplete.nvim", a dark powered asynchronous completion framework."fzf" is an independent command line program for Vim that handles things like Jump to File and Jump to Definition. Using all three of these plugins together can make the Scala experience really work in Vim. Vim is open source.
 
@@ -207,6 +237,8 @@ it automatically install all dependencies of Scala.
 
 
 For Linux:
+
+
 In Linux you can install Scala using command line in Ubuntu :
 Apt-get install scala
 
@@ -224,6 +256,8 @@ For example to install Scala 2.12 simply use “sudo port install scala2.12”
 
 
 3)For downloading manually, you can use :
+
+
 https://www.scala-lang.org/download/
 and download one of Scala release according to you requirements.
 
@@ -234,16 +268,19 @@ Some Interesting Example Codes in Scala:
 
 1)Scala program to print your name:
 
+
 object ExPrintName {
        def main(args: Array[String]) {
            println("My name is Rashad!")
        }
     }
 
+
 OUTPUT:”My name is Rashad!”
 
 
 2)Scala program to find a number is negative or positive:
+
 
 object ExCheckNumber {
        def main(args: Array[String]) {
@@ -263,10 +300,12 @@ object ExCheckNumber {
        }
     }
 
+
 OUTPUT:”number is negative”
 
 
 3)Scala program to demonstrate example of multiple variables declarations and assignments:
+
 
 object ExampleVarDecAndAssin {
    def main(args: Array[String]) {
@@ -287,6 +326,7 @@ object ExampleVarDecAndAssin {
    }
 }
 
+
 OUTPUT:
 Name:   Rashad
 Age:    21
@@ -295,6 +335,7 @@ Mobile:    1234567890
 
 
 4)Scala program to print numbers from 1 to 100 using for loop:
+
 
 object ExampleForLoop1 {
    def main(args: Array[String]) {
@@ -308,6 +349,7 @@ object ExampleForLoop1 {
    }
 }
 
+
 OUTPUT:
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 
@@ -317,6 +359,7 @@ OUTPUT:
 
 
  5)Scala program of array - Declare, print and calculate sum of all elements:
+
 
 object ExampleArray1 {
     
@@ -339,6 +382,7 @@ object ExampleArray1 {
 
    }
 }
+
 
 OUTPUT:
 All array elements: 
